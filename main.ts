@@ -29,5 +29,7 @@ basic.forever(function () {
         if (김치찌개 == 4) {
             부대찌개()
         }
+    } else {
+        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 100)
     }
 })
